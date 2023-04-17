@@ -1,5 +1,5 @@
 # University_Clojure
-Tasks from the university functional programming course (spring 2023)
+Tasks from the university functional programming course (spring 2023).
 
 ## Description of tasks
 
