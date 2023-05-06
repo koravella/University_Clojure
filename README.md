@@ -87,3 +87,20 @@ Tasks from the university functional programming course (spring 2023).
       Conduct experiments with an even and odd number of philosophers.
       Count the number of unnecessary transaction restarts (use atom).
       How much does the solution differ from the optimal one in time?
+   
+7. [Booking of air tickets]
+   1. A set of airports, air routes (each characterized by a starting
+      and ending airport), the number of tickets for each route and their
+      prices are specified. Based on these data, implement a program that
+      simulates simultaneous booking of air tickets.
+
+      In general, transfers may be required for a flight between two
+      points. At the same time, the client is interested in booking for
+      all intermediate flights at the same time, or notifying that this
+      is impossible due to the lack of available tickets. When booking,
+      you should give preference to the sequence of flights that is
+      cheaper (even if the number of flights is greater).
+
+      Complete the provided code, use STM for atomicity of booking. Set
+      up delays so that all customers (represented by execution threads)
+      can book tickets.
